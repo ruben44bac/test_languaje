@@ -1,0 +1,27 @@
+## `msgid`s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove `msgid`s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use `mix gettext.extract --merge` or `mix gettext.merge`
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2\n"
+
+#, elixir-format
+#: lib/languaje_web/templates/page/index.html.eex:2
+msgid "Welcome to %{name}!"
+msgstr ""
+
+#, elixir-format
+#: lib/languaje_web/templates/layout/app.html.eex:11
+msgid "This tutorial jajaja is brought to you by %{company}"
+msgstr "This tutorial jajaja is brought to you by %{company}"
+
+#, elixir-format
+#: lib/languaje_web/templates/home/detail.html.eex:5
+msgid "%{text}"
+msgstr "Google LLC is a leading subsidiary of the US multinational Alphabet Inc., whose specialization is the products and services related to Internet, software, electronic devices and other technologies"

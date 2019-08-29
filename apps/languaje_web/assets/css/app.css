@@ -1,0 +1,26 @@
+/* This file is for your main application css. */
+
+
+@tailwind base;
+
+@tailwind components;
+
+/* Put your custom components here */
+
+@tailwind utilities;
+
+
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 500px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 2000px solid #4C51BF;
+  }
+  .arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 800px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 2000px solid rgba(66, 153, 225, 0.986);
+  }

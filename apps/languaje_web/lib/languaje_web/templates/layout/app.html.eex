@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Languaje · Phoenix Framework</title>
+    <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+  </head>
+  <body class="bg-gray-100 relative h-screen">
+      <div class="flex w-full mt-5">
+        <a href="?locale=es" class="ml-auto p-2">Español</a>
+        <a href="?locale=en" class="p-2">English</a>
+        <a href="?locale=ru" class="mr-auto p-2">Ruso</a>
+      </div>
+      <h3 class="w-full text-center text-xl  text-blue-700"><%= gettext "This tutorial jajaja is brought to you by %{company}",
+  company: "PhraseApp" %></h3>
+      <%= render @view_module, @view_template, assigns %>
+
+      <div class=" fixed bottom-0 left-0 arrow-right"></div>
+      <div class=" fixed bottom-0 right-0 arrow-left"></div>
+    <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>
