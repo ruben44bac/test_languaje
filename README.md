@@ -1,0 +1,2 @@
+# test_languaje
+locale
